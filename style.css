@@ -95,6 +95,9 @@ footer {
   .hero img {
       max-width: 100%;
   }
+  .social p{
+    display: none;
+  }
 }
 
 
@@ -104,8 +107,24 @@ footer {
   .hero img {
       max-width: 20%;
   }
+  .social p{
+    display: none;
+  }
 }
 
+
+@media (max-width: 320px) {
+  .hero img {
+      max-width: 100%;
+  }
+  .s{
+    display: none;
+  }
+  .social p{
+    display: block;
+  }
+
+}
 
 
 
