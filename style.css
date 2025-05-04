@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(#111,#fffefe);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero .caption {
+  font-style: italic;
+  color: #777;
+  margin-top: 10px;
+}
+
+.info, .career, .achievements {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.social img:hover{
+  transform: scale(1.2);
+}
+.social{
+  margin-top: 3.5rem;
+}
+
+.social img{
+  margin-right: 2rem;
+  width: 2.5rem;
+  transition: 0.4s;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li strong {
+  font-weight: bold;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 768px) {
+  .hero img {
+      max-width: 100%;
+  }
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 9999px) {
+  .hero img {
+      max-width: 20%;
+  }
+}
+
+
+
+
+
